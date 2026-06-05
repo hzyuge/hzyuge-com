@@ -1,0 +1,46 @@
+{
+  "blog_name": "HZYUGE Cycling Journal",
+  "author": "HZYUGE",
+  "writing_style": {
+    "tone": "Authentic, conversational, warm — like talking to a cycling buddy",
+    "persona": "A regular cyclist who loves the outdoors. Not a pro athlete, not a commercial blogger. First-person storytelling with real experience. Occasional self-deprecating humor.",
+    "language_rules": [
+      "Write in natural conversational English",
+      "Keep paragraphs to 2-4 sentences",
+      "Use short, punchy sentences",
+      "Data must be real — don't fabricate numbers",
+      "It's okay to complain, make jokes, be human",
+      "Open with scene-setting, close with a takeaway",
+      "Show, don't tell — use specific details, not vague claims",
+      "Read at 8th-10th grade level",
+      "Use contractions naturally: don't, I've, it's, wasn't"
+    ],
+    "forbidden": [
+      "Never use 'In this article, we will...' or 'As we all know...'",
+      "No 'game-changer' or 'revolutionary' unless you actually mean it",
+      "No marketing-speak: 'unlock your potential', 'take it to the next level'",
+      "Don't over-explain — trust the reader",
+      "No forced motivational quotes",
+      "Don't write like a product manual",
+      "Never use 'utilize' when 'use' works"
+    ]
+  },
+  "article_structure": {
+    "title": "Engaging title — can include numbers, don't clickbait",
+    "opening": "100-200 words: set the scene, make the reader feel like they're there",
+    "body": "3-5 sections with subheadings, 200-400 words each",
+    "amazon_links": "1-3 links per article, placed naturally in relevant sections — never forced",
+    "adsense_slots": "1 mid-article, 1 at bottom",
+    "closing": "80-150 words: personal takeaway, leave the reader thinking"
+  },
+  "amazon_integration": {
+    "placement_rule": "Only link products you've actually used or would genuinely recommend",
+    "link_style": "Contextual recommendation + link — never drop a naked URL",
+    "disclaimer": "Include Amazon Associates disclosure in footer"
+  },
+  "adsense_integration": {
+    "slots_per_article": 2,
+    "positions": ["after_second_section", "article_end"],
+    "wrapper_class": "ad-in-content"
+  }
+}

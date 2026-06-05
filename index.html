@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HZYUGE - Cycling Journal | Road Bike Adventures</title>
+    <meta name="description" content="HZYUGE Cycling Journal — real stories, gear reviews, route guides for road cycling and outdoor adventures.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- AdSense: replace ca-pub-XXXXXXXXXXXX with your actual ID from adsense.google.com -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2958320523040643" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <a href="/" class="logo">
+                <span class="logo-icon">🚵</span>
+                <span class="logo-text">HZYUGE</span>
+                <span class="logo-sub">· Cycling</span>
+            </a>
+            <nav class="site-nav">
+                <a href="/" class="active">Home</a>
+                <a href="#articles">Articles</a>
+                <a href="#gear">Gear</a>
+                <a href="#routes">Routes</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+        <div class="hero-bg-image">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80" alt="Cyclist on mountain road">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-avatar">🚵‍♂️</div>
+                <h1>HZYUGE Cycling Journal</h1>
+                <p class="hero-tagline">
+                    Two wheels, one road. Honest stories from the saddle — gear I actually use,
+                    routes I've suffered through, and the people I've met along the way.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat"><span class="stat-num" id="totalDistance">15,000+</span> km ridden</div>
+                    <div class="stat"><span class="stat-num" id="totalRoutes">50+</span> routes</div>
+                    <div class="stat"><span class="stat-num" id="totalArticles">30+</span> articles</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Main Layout ===== -->
+    <div class="main-layout container">
+        <!-- ===== Articles ===== -->
+        <main class="articles-area" id="articles">
+            <h2 class="section-title">
+                <span class="title-icon">📝</span> Latest Articles
+            </h2>
+            <div class="article-grid" id="articleGrid"></div>
+
+            <!-- In-feed Ad Slot -->
+            <div class="ad-container ad-in-feed" style="margin-top:24px;padding:16px;background:var(--gray-50);border-radius:var(--radius);text-align:center;">
+                <div class="ad-label">Advertisement</div>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-format="fluid"
+                     data-ad-layout-key="-gw-3+1f-3d+2z"
+                     data-ad-client="ca-pub-2958320523040643"
+                     data-ad-slot="6909660918"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </main>
+
+        <!-- ===== Sidebar ===== -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <h3>🙋 About Me</h3>
+                <p style="font-size:14px;color:var(--gray-700);line-height:1.7;">
+                    A regular cyclist obsessed with two wheels. From city commutes to mountain passes,
+                    bikes take me places cars can't reach. Here to share honest experiences — no fluff,
+                    no sponsored nonsense.
+                </p>
+            </div>
+
+            <div class="sidebar-box ad-sidebar-bar">
+                <div class="ad-label">Advertisement</div>
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-2958320523040643"
+                     data-ad-slot="6909660918"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>🔥 Popular Routes</h3>
+                <ul style="list-style:none;font-size:14px;line-height:2;">
+                    <li><a href="#">Longjing Hill Climb</a></li>
+                    <li><a href="#">Qiandao Lake Loop</a></li>
+                    <li><a href="#">Tianhuangping Classic</a></li>
+                    <li><a href="#">Moganshan Gravel Trail</a></li>
+                    <li><a href="#">West Lake Night Ride</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>🛒 Gear I Recommend</h3>
+                <p style="font-size:12px;color:var(--gray-500);margin-bottom:12px;">
+                    As an Amazon Associate, I earn from qualifying purchases.
+                </p>
+                <ul class="amazon-list" id="amazonGearList"></ul>
+            </div>
+
+            <div class="sidebar-box">
+                <h3>🏷️ Tags</h3>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                    <a href="#" class="card-tag">Road Bike</a>
+                    <a href="#" class="card-tag">MTB</a>
+                    <a href="#" class="card-tag">Gear</a>
+                    <a href="#" class="card-tag">Routes</a>
+                    <a href="#" class="card-tag">Tips</a>
+                    <a href="#" class="card-tag">Bikepacking</a>
+                    <a href="#" class="card-tag">Hangzhou</a>
+                    <a href="#" class="card-tag">Maintenance</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-brand">🚵 HZYUGE</div>
+                    <p>Honest cyclist stories. No fluff.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <ul>
+                        <li><a href="#">Strava</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">RSS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p style="margin-bottom:8px;">HZYUGE participates in the Amazon Services LLC Associates Program. Purchases through links may earn a commission at no extra cost to you.</p>
+                <p>&copy; 2026 HZYUGE Cycling Journal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/blog.js"></script>
+</body>
+</html>

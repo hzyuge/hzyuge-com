@@ -1,0 +1,74 @@
+# URL Redirect Map: hzyuge.com Migration
+# ============================================
+# Format: OLD_URL → NEW_URL
+# "→ /" means redirect to homepage
+# Generated: June 5, 2026
+
+# ── KEPT ARTICLES (same URL, content rewritten) ──
+/en/cycling/why-i-switched-to-cycling/       → KEEP (rewrite)
+/en/cycling/mountain-bike-muddy-road/        → KEEP (rewrite)
+/en/cycling/ride-together-grow-together/     → KEEP (rewrite)
+/en/routes/qiantang-river-ride/              → KEEP (rewrite)
+/en/routes/west-lake-loop/                   → KEEP (rewrite)
+
+# ── REDIRECT TO HOMEPAGE ──
+# Gear "best-X" articles (generic, no personal value)
+/en/gear/best-electric-bikes-2026/           → /
+/en/gear/best-bike-computers/                → /
+/en/gear/best-cycling-photography-gear/      → /
+/en/gear/best-cranksets/                     → /
+/en/gear/best-cycling-jerseys/               → /
+/en/gear/best-mountain-bikes-beginners/      → /
+/en/gear/best-reflective-gear/               → /
+/en/gear/best-cycling-tires/                 → /
+/en/gear/best-road-bikes-beginners/          → /
+/en/gear/best-cycling-helmets-under-100/     → /
+/en/gear/                                    → /
+
+# Generic how-to guides (rewrite as personal stories on new blog)
+/en/cycling/complete-beginner-guide-cycling-2026/  → /
+/en/cycling/cycling-tips-30-things/                → /
+/en/cycling/mountain-bike-maintenance-guide-2026/  → /
+/en/cycling/gravel-bike-vs-road-bike/              → /
+/en/cycling/zwift-setup-guide-beginners/            → /
+/en/cycling/how-to-clean-bike-chain/               → /
+/en/cycling/cycling-training-beginners/            → /
+/en/cycling/carbon-frame-upgrade-review/           → /
+/en/cycling/bike-frame-materials-guide/             → /
+/en/cycling/cycling-friendship-community/          → /
+/en/cycling/how-to-fix-flat-tire/                  → /
+/en/cycling/summer-cycling-classics/               → /
+/en/cycling/best-cycling-times/                    → /
+/en/cycling/cycling-pain-checklist/                → /
+/en/cycling/hangzhou-summer-cycling/               → /
+/en/cycling/what-happens-if-you-cycle-10km-every-day/  → /
+/en/cycling/top-cycling-songs-2025/                → /
+/en/cycling/best-cycling-headphones/               → /
+/en/cycling/family-cycling/                        → /
+/en/cycling/best-cycling-sunglasses-2026/          → /
+/en/cycling/best-bike-lights-2026/                 → /
+/en/cycling/life-changing-cycling-accessories/     → /
+/en/cycling/cycling-safety-guide/                  → /
+/en/cycling/how-to-start-cycling-ultimate-guide/   → /
+/en/cycling/why-more-people-are-cycling/           → /
+/en/cycling/scenic-cycling-routes/                 → /
+
+# Category/tag pages → homepage
+/en/categories/                            → /
+/en/categories/guides/                     → /
+/en/categories/maintenance/                → /
+/en/tags/                                  → /
+/en/tags/*                                 → /
+
+# About page → keep but update
+/en/about/                                 → /about.html
+
+# Routes index → keep
+/en/routes/                                → KEEP (route index page)
+/en/cycling/                               → KEEP (cycling index)
+/en/                                       → KEEP (homepage)
+
+# ── CHINESE PAGES ──
+# All /zh/ pages → redirect to /en/ (English only for now)
+/zh/*                                      → /en/
+/zh/                                       → /en/
